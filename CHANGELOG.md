@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 No changes.
 
+## [1.2.0] - 2018-12-10
+### Changed
+- Updated PHP version to >=7.2
+- Updated PHPUnit to ^7.5
+- Updated PHP-CS-Fixer version to ^2.13
+
 ## [1.1.0] - 2018-10-15
 ### Added
 - `bin/console` PHP CLI script template
