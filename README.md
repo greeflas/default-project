@@ -66,4 +66,4 @@ License
 
 This project is released under the terms of the BSD-3-Clause [license](LICENSE).
 
-Copyright (c) 2018, Vladimir Kuprienko
+Copyright (c) 2018 - 2019, Vladimir Kuprienko

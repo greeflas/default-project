@@ -9,11 +9,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 No changes.
 
+## [1.3.0] - 2019-01-08
+### Added
+- New year date in README.md and LICENSE files
+
+### Changed
+- Updated PHP version to >= 7.3 in composer.json and .lock
+- Updated PHP-CS-Fixer version to ^2.14 in composer.json and .lock
+- Updated PHP Unit version in composer.lock
+
 ## [1.2.0] - 2018-12-10
 ### Changed
-- Updated PHP version to >=7.2
-- Updated PHPUnit to ^7.5
-- Updated PHP-CS-Fixer version to ^2.13
+- Updated PHP version to >=7.2 in composer.json and .lock
+- Updated PHPUnit to ^7.5 in composer.json and .lock
+- Updated PHP-CS-Fixer version to ^2.13 in composer.json and .lock
 
 ## [1.1.0] - 2018-10-15
 ### Added
