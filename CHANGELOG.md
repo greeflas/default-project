@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 No changes.
 
+## [1.3.1] - 2019-01-31
+### Added
+- `.php_cs.dist` configuration file
+
+### Changed
+- Ignore `.php_cs` file
+- `php_cs.cache` cache file renamed to `.php_cs.cache`
+- Moved PHP 7 only rules in `.php_cs.dist` config to top of file
+
 ## [1.3.0] - 2019-01-08
 ### Added
 - New year date in README.md and LICENSE files

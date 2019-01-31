@@ -15,9 +15,17 @@ $finder = \PhpCsFixer\Finder::create()
 ;
 
 return \PhpCsFixer\Config::create()
-    ->setCacheFile(__DIR__ . '/php_cs.cache')
+    ->setCacheFile(__DIR__ . '/.php_cs.cache')
+    ->setFinder($finder)
     ->setRules([
         '@PSR2' => true,
+        // PHP 7 only rules
+        'list_syntax' => [
+            'syntax' => 'short',
+        ],
+        'random_api_migration' => true,
+        'ternary_to_null_coalescing' => true,
+        // End of PHP 7 only rules
         'array_syntax' => [
             'syntax' => 'short',
         ],
@@ -48,11 +56,6 @@ return \PhpCsFixer\Config::create()
             'separate' => 'both',
         ],
         'is_null' => true,
-
-        // PHP 7.x only
-        'list_syntax' => [
-            'syntax' => 'short',
-        ],
         'logical_operators' => true,
         'lowercase_cast' => true,
         'lowercase_static_reference' => true,
@@ -91,18 +94,13 @@ return \PhpCsFixer\Config::create()
         'phpdoc_var_without_name' => true,
         'pow_to_exponentiation' => true,
         'psr4' => true,
-        // PHP 7.x only
-        'random_api_migration' => true,
         'return_type_declaration' => true,
         'short_scalar_cast' => true,
         'single_quote' => true,
         'standardize_not_equals' => true,
         'ternary_operator_spaces' => true,
-        // PHP 7.x only
-        'ternary_to_null_coalescing' => true,
         'trailing_comma_in_multiline_array' => true,
         'yoda_style' => true,
         'new_with_braces' => true,
     ])
-    ->setFinder($finder)
 ;

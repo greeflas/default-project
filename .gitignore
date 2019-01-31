@@ -4,11 +4,12 @@ composer.phar
 # Composer vendor dir
 /vendor/
 
-# PHPStorm project files
+# PhpStrom project files
 .idea/
 
 # Mac DS_Store Files
 .DS_Store
 
-# PHP CS Fixer cache
-php_cs.cache
+# PHP CS Fixer files
+.php_cs
+.php_cs.cache
