@@ -1,15 +1,12 @@
-# Composer itself is not needed
-composer.phar
+# Mac DS_Store Files
+.DS_Store
+
+# PhpStorm project files
+/.idea/
 
 # Composer vendor dir
 /vendor/
 
-# PhpStrom project files
-.idea/
-
-# Mac DS_Store Files
-.DS_Store
-
 # PHP CS Fixer files
-.php_cs
-.php_cs.cache
+/.php_cs
+/.php_cs.cache

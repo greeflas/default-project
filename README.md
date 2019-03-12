@@ -31,7 +31,7 @@ Main changes that you need to do:
 
 1. Update `name`, `description`, `keywords`, `authors` section of the `composer.json` file, [lines 2-4](composer.json#L2-L4), [9-10](composer.json#L9-L10).
 
-2. Update header template in `.php_cs` file, [lines 4-9](.php_cs#L4-L9).
+2. Update header template in `.php_cs.dist` file, [lines 4-9](.php_cs.dist#L4-L9).
 
 3. Update copyright in `LICENSE` file, [line 3](LICENSE#L3).
 
@@ -41,7 +41,7 @@ Other changes that you may do:
 
 2. Change PHP version in `composer.json` [line 15](composer.json#L15).
 
-3. Change rules for code style in `.php_cs` file.
+3. Change rules for code style in `.php_cs.dist` file.
 
 4. Add some new files and directories to `.gitignore` file to exclude them from Git.
 
