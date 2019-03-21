@@ -30,5 +30,8 @@
   },
   "scripts": {
     "cs-fix": "php-cs-fixer fix --allow-risky=yes --diff --ansi"
+  },
+  "config": {
+    "sort-packages": true
   }
 }
