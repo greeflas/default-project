@@ -7,7 +7,8 @@
   "authors": [
     {
       "name": "Vladimir Kuprienko",
-      "email": "vldmr.kuprienko@gmail.com"
+      "email": "vldmr.kuprienko@gmail.com",
+      "role": "Maintainer"
     }
   ],
   "minimum-stability": "stable",

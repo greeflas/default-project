@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Auto-sorting of packages in composer.json
 - `declare_strict_types` rule to PHP-CS-Fixer's config
+- "role" key to author in composer.json
 
 ## [1.4.0] - 2019-03-18
 ### Added
