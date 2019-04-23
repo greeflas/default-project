@@ -18,7 +18,7 @@ Installation
 
 For creating new project based on this template just execute the following command
 
-```
+```bash
 $ composer create-project greeflas/default-project project-name
 ```
 
@@ -52,10 +52,17 @@ Other changes that you may do:
 Code style fixer
 ----------------
 
+To check the code style just run the following command
 
-To fix the code style just run the following command
 
+```bash
+$ composer cs-check
 ```
+
+
+to fix the code style run next command
+
+```bash
 $ composer cs-fix
 ```
 

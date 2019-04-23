@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `declare_strict_types` rule to PHP-CS-Fixer's config
 - `role` key to author in composer.json
 - PHPUnit files to .gitignore
+- `cs-check` composer script for checking code style
 
 ## [1.4.0] - 2019-03-18
 ### Added
