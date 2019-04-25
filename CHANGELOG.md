@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `role` key to author in composer.json
 - PHPUnit files to .gitignore
 - `cs-check` composer script for checking code style
+- `tests` composer script for tests running
 
 ## [1.4.0] - 2019-03-18
 ### Added

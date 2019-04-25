@@ -31,7 +31,8 @@
   },
   "scripts": {
     "cs-check": "php-cs-fixer fix --allow-risky=yes --diff --ansi --dry-run",
-    "cs-fix": "php-cs-fixer fix --allow-risky=yes --diff --ansi"
+    "cs-fix": "php-cs-fixer fix --allow-risky=yes --diff --ansi",
+    "tests": "phpunit --colors=always"
   },
   "config": {
     "sort-packages": true

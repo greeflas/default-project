@@ -39,7 +39,7 @@ Other changes that you may do:
 
 1. Change namespace for source code in `composer.json`, [line 23](composer.json#L23) and for tests [line 28](composer.json#L28).
 
-2. Change PHP version in `composer.json` [line 15](composer.json#L15).
+2. Change PHP version in `composer.json` [line 16](composer.json#L15).
 
 3. Change rules for code style in `.php_cs.dist` file.
 
@@ -64,6 +64,15 @@ to fix the code style run next command
 
 ```bash
 $ composer cs-fix
+```
+
+Tests
+-----
+
+You can run tests with composer command
+
+```bash
+$ composer tests
 ```
 
 License
