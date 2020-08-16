@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.7.0] - 2020-08-16
+### Changed
+- Updated PHP Unit version to ^9.0 in composer.json and .lock
+- Updated PHP-CS-Fixer version to ^2.16 in composer.json and .lock
+- Updated PHP version to >= 7.4 in composer.json and .lock
+
 ## [1.6.0] - 2019-10-02
 ### Changed
 - Removed config options that presents in groups from PHP CS Fixer config file
